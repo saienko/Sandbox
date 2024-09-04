@@ -1,2 +1,2 @@
 # Main Page
-print("Main Page")
+print("\nMain Page\n")
