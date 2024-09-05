@@ -32,7 +32,7 @@ export default function Header() {
         <button className="border rounded-full px-4 py-2">
           <Link href={"login"}>Sing In</Link>
         </button>
-        <button className="bg-amber-400 rounded-full px-4 py-2 shadow-md hover:bg-amber-800 hover:text-white">
+        <button className="bg-amber-400 rounded-full px-4 py-2 shadow-md transition duration-300 ease-linear hover:bg-amber-800 hover:text-white ">
           <Link href={"login"}>Sing Up</Link>
         </button>
       </nav>
