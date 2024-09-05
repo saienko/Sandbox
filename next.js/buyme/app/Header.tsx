@@ -21,7 +21,7 @@ const links = [
 ];
 export default function Header() {
   return (
-    <header className="flex justify-between p-4 max-w-screen-xl border-b">
+    <header className="flex justify-between max-w-screen-xl  mx-auto text-center p-10 border-b">
       <div></div>
       <nav className="flex gap-4 items-center">
         {links.map((link, idx) => (
