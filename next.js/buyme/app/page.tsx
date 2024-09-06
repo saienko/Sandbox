@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ProfilePage from "./components/profile/page";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <button className="bg-amber-500 px-4 py-4 font-bold rounded-full shadow-md">
         Start my page
       </button>
+      <ProfilePage />
     </main>
   );
 }
