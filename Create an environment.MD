@@ -36,3 +36,11 @@ python -m streamlit run app.py
 ### When you're done using this environment, return to your normal shell by typing:
 
 deactivate
+
+## Create new file in folder, in the terminal.
+
+echo . > filename.py
+
+## Delete file in folder, in the terminal.
+
+del filename.py
