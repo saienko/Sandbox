@@ -1,0 +1,6 @@
+[workspace]
+
+members = [ "assistant",
+    "web_scraper",
+    "assistant"
+]
