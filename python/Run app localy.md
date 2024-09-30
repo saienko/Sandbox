@@ -5,9 +5,9 @@ cd
 ### Create a virtual environment:
 
 On macOS and Linux:
-python3 -m venv venv
+python3 -m venv .venv
 On Windows:
-python -m venv venv
+python -m venv .venv
 
 ### Activate the virtual environment:
 
@@ -15,7 +15,7 @@ On macOS and Linux:
 source venv/bin/activate
 
 On Windows:
-venv\Scripts\activate
+.venv\Scripts\activate
 
 ### Install the dependencies:
 
