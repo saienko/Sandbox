@@ -23,24 +23,17 @@ source .venv/bin/activate
 
 ## Once activated, you will see your environment name in parentheses before your prompt. "(.venv)"
 
-5. Run your Streamlit app.
+4. Install packages with pip and requirements.txt
+pip install -r requirements.txt
 
-streamlit run app.py
+## Create requirements.txt with pip freeze
+pip freeze > requirements.txt
 
-### If this doesn't work, use the long-form command:
+## List installed Python packages with pip list
+pip list
 
-python -m streamlit run app.py
+5. Run your App.
 
-## To stop the Streamlit server, press Ctrl+C in the terminal.
+python run app.py
 
-### When you're done using this environment, return to your normal shell by typing:
 
-deactivate
-
-## Create new file in folder, in the terminal.
-
-echo . > filename.py
-
-## Delete file in folder, in the terminal.
-
-del filename.py
